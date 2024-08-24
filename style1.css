@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://raw.githubusercontent.com/Potasovvi/HP_quiz-V4/main/Harry_Bellatrix.jpg'); /* Percorso corretto dell'immagine */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Sfondo semi-trasparente per leggibilità */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Aumenta la dimensione del bottone */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em; /* Aumenta la dimensione del testo del bottone */
+    margin: 20px auto; /* Centra il bottone */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
