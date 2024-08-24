@@ -15,7 +15,7 @@
             font-family: Arial, sans-serif;
             background: url('Hogwarts_phone.jpeg') no-repeat center center;
             background-size: cover;
-            color: #fff; /* Testo bianco per contrastare con lo sfondo */
+            color: #000; /* Testo nero */
             text-align: center;
         }
         h1, p {
