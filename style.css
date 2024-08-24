@@ -72,3 +72,24 @@ p {
 #wizarding-world-button:hover {
     background-color: #444;
 }
+
+#submit-button {
+    background-color: #4CAF50; /* Sfondo verde */
+    color: white; /* Testo bianco */
+    border: none;
+    padding: 15px 30px; /* Dimensione del pulsante */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em; /* Dimensione del testo */
+    margin: 20px auto; /* Centratura del pulsante */
+    cursor: pointer;
+    border-radius: 5px; /* Angoli arrotondati */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transizione per effetto hover */
+}
+
+#submit-button:hover {
+    background-color: #45a049; /* Colore verde più scuro al passaggio del mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombra per un effetto di profondità */
+}
+
