@@ -1,0 +1,65 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; font-src 'self' https://potasovvi.github.io; style-src 'self' 'unsafe-inline'; script-src 'self';">  -->
+    <title>Registrazione</title>
+</head>
+    <link rel="stylesheet" href="style1.css"> 
+<body>
+ 
+    <h1>Quanto conosci gli sposi ? Registrati!</h1>
+	     
+<form name="submit-to-google-sheet" id="registrationForm">
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" name="nome" required><br><br>
+  <label for="cognome">Cognome:</label>
+  <input type="text" id="cognome" name="cognome" required><br><br>
+  <input type="hidden" id="punteggio" name="punteggio" value="100"><br><br> <!-- Puoi modificare il valore del punteggio qui -->
+  <button type="submit">Salva</button>
+</form>
+
+<script>
+    // Aggiungi un listener per il submit del form
+    document.getElementById('registrationForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Evita il comportamento di invio predefinito del form
+	
+    // Ottieni i valori di nome e cognome dal form
+    const nome = document.getElementById('nome').value;
+    const cognome = document.getElementById('cognome').value;	
+	
+    // Reindirizza alla pagina "quiz-hp.html" con nome e cognome come parametri nella URL
+    window.location.href = `https://potasovvi.github.io/AR_quiz-V1/quiz-ar.html?nome=${encodeURIComponent(nome)}&cognome=${encodeURIComponent(cognome)}`;
+    
+    // Resetta il modulo
+    document.getElementById('registrationForm').reset();
+    
+    });	    
+</script>	
+	
+	<!-- Write your comments here 
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwyrPmjaj3aWCb5-alM05iZ4v4GwGcUQIAvLxo_UkRgcMaPXXr-e9PF6g7zU_YaRWEa/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+	      {
+	      console.log('Success!', response);
+		      
+      	        // Ottieni i valori di nome e cognome dal form
+        	const nome = document.getElementById('nome').value;
+        	const cognome = document.getElementById('cognome').value;
+
+        // Reindirizza alla pagina "quiz-hp.html" con nome e cognome come parametri nella URL
+        window.location.href = `https://potasovvi.github.io/HP_quiz-V4/quiz-hp.html?nome=${encodeURIComponent(nome)}&cognome=${encodeURIComponent(cognome)}`;
+        })	    
+	.catch(error => console.error('Error!', error.message))		
+  })
+</script>
+	-->
+
+</body>
+</html>
