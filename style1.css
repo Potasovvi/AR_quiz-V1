@@ -39,6 +39,14 @@ input[type="text"] {
     color: #000;
 }
 
+#nome, #cognome {
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #000; /* Bordi neri */
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #000;
+}
 
 button {
     background-color: #4CAF50;
