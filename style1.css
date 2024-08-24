@@ -33,11 +33,12 @@ label {
 input[type="text"] {
     padding: 10px;
     font-size: 1.2em;
-    border: none;
+    border: 2px solid #000; /* Bordi neri */
     border-radius: 5px;
     box-sizing: border-box;
     color: #000;
 }
+
 
 button {
     background-color: #4CAF50;
