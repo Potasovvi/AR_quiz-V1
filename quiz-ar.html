@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz HP</title>
+</head>
+    <link rel="stylesheet" href="style.css"> 
+<body>
+    <h1>Benvenuto al quiz!</h1>
+    <p id="greeting"></p>
+
+
+	<!-- Contenitore per l'immagine -->
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/Potasovvi/AR_quiz-V1/main/Harry_Vold.jpg" alt="Immagine di Harry Potter">
+    </div>
+	
+<!-- Form del quiz -->
+    <form id="quizForm">
+        <!-- Prima domanda -->
+        <p>1) Qual è il colore preferito di Andrea?</p>
+        <label>
+            <input type="radio" name="domanda1" value="A" required> A) Blu
+        </label>
+        <label>
+            <input type="radio" name="domanda1" value="B"> B) Rosso
+        </label>
+        <label>
+            <input type="radio" name="domanda1" value="C"> C) Arancione
+        </label>
+        <label>
+            <input type="radio" name="domanda1" value="D"> D) Giallo
+        </label>
+
+        <!-- Seconda domanda -->
+        <p>2) Quale tra questi episodi su Andrea è vero?</p>
+        <label>
+            <input type="radio" name="domanda2" value="A" required> A) Parla mentre dorme e una notte ha svegliato Roberta urlandole "Pronto?" nell'orecchio
+        </label>
+        <label>
+            <input type="radio" name="domanda2" value="B"> B) Si è iscritto ad un corso di pilates e non è mai andato
+        </label>
+        <label>
+            <input type="radio" name="domanda2" value="C"> C) Uno dei suoi negozi preferiti è Ikea
+        </label>
+        <label>
+            <input type="radio" name="domanda2" value="D"> D) Ha rotto il soffione mentre era sotto la doccia
+        </label>
+
+        <!-- Terza domanda -->
+        <p>3) Qual è il gruppo preferito di Andrea?</p>
+        <label>
+            <input type="radio" name="domanda3" value="A" required> A) Guns ‘n Roses
+        </label>
+        <label>
+            <input type="radio" name="domanda3" value="B"> B) Queen
+        </label>
+        <label>
+            <input type="radio" name="domanda3" value="C"> C) Rolling Stones
+        </label>
+        <label>
+            <input type="radio" name="domanda3" value="D"> D) AC/DC
+        </label>
+
+        <!-- Quarta domanda -->
+        <p>4) Andrea ha suonato per anni uno strumento, quale?</p>
+        <label>
+            <input type="radio" name="domanda4" value="A" required> A) Viola
+        </label>
+        <label>
+            <input type="radio" name="domanda4" value="B"> B) Pianoforte
+        </label>
+        <label>
+            <input type="radio" name="domanda4" value="C"> C) Violino
+        </label>
+        <label>
+            <input type="radio" name="domanda4" value="D"> D) Chitarra
+        </label>
+
+        <!-- Quinta domanda -->
+        <p>5) Chi è il pupillo calcistico di Andrea?</p>
+        <label>
+            <input type="radio" name="domanda5" value="A" required> A) Emiliano Moretti
+        </label>
+        <label>
+            <input type="radio" name="domanda5" value="B"> B) Fabio Quagliarella
+        </label>
+        <label>
+            <input type="radio" name="domanda5" value="C"> C) Galabinov del Novara delle meraviglie
+        </label>
+        <label>
+            <input type="radio" name="domanda5" value="D"> D) Lorenzo De Silvestri
+        </label>
+
+        <!-- Sesta domanda -->
+        <p>6) Qual è il frutto preferito in assoluto di Roberta?</p>
+        <label>
+            <input type="radio" name="domanda6" value="A" required> A) Pesca
+        </label>
+        <label>
+            <input type="radio" name="domanda6" value="B"> B) Fragola
+        </label>
+        <label>
+            <input type="radio" name="domanda6" value="C"> C) Mango
+        </label>
+        <label>
+            <input type="radio" name="domanda6" value="D"> D) Mirtillo
+        </label>
+
+        <!-- Settima domanda -->
+        <p>7) Qual è il gruppo preferito di Roberta?</p>
+        <label>
+            <input type="radio" name="domanda7" value="A" required> A) Imagine Dragons
+        </label>
+        <label>
+            <input type="radio" name="domanda7" value="B"> B) Muse
+        </label>
+        <label>
+            <input type="radio" name="domanda7" value="C"> C) Coldplay
+        </label>
+        <label>
+            <input type="radio" name="domanda7" value="D"> D) Red Hot Chili Peppers
+        </label>
+
+        <!-- Ottava domanda -->
+        <p>8) Per anni Roberta ha fatto parte della GiFra. Qual era il suo soprannome?</p>
+        <label>
+            <input type="radio" name="domanda8" value="A" required> A) Sua Maestà
+        </label>
+        <label>
+            <input type="radio" name="domanda8" value="B"> B) Reverendissima
+        </label>
+        <label>
+            <input type="radio" name="domanda8" value="C"> C) Principessa
+        </label>
+        <label>
+            <input type="radio" name="domanda8" value="D"> D) Sua Eccellenza
+        </label>
+
+        <!-- Nona domanda -->
+        <p>9) Qual è l'unico giorno dell'anno in cui Roberta non si lamenta della sveglia presto?</p>
+        <label>
+            <input type="radio" name="domanda9" value="A" required> A) Il giorno di Natale
+        </label>
+        <label>
+            <input type="radio" name="domanda9" value="B"> B) Capodanno
+        </label>
+        <label>
+            <input type="radio" name="domanda9" value="C"> C) Il suo matrimonio
+        </label>
+        <label>
+            <input type="radio" name="domanda9" value="D"> D) L'alba del Venerdì Santo
+        </label>
+
+        <!-- Decima domanda -->
+        <p>10) Di che segno zodiacale è Roberta?</p>
+        <label>
+            <input type="radio" name="domanda10" value="A" required> A) Sagittario
+        </label>
+        <label>
+            <input type="radio" name="domanda10" value="B"> B) Scorpione
+        </label>
+        <label>
+            <input type="radio" name="domanda10" value="C"> C) Acquario
+        </label>
+        <label>
+            <input type="radio" name="domanda10" value="D"> D) Bilancia
+        </label>
+
+      <!-- Undicesima domanda -->
+        <p>11) Roberta e Andrea frequentano da un paio d'anni una scuola di ballo, di che cosa?</p>
+        <label>
+            <input type="radio" name="domanda11" value="A" required> A) Tango argentino
+        </label>
+        <label>
+            <input type="radio" name="domanda11" value="B"> B) Salsa e bachata
+        </label>
+        <label>
+            <input type="radio" name="domanda11" value="C"> C) Mazurka
+        </label>
+        <label>
+            <input type="radio" name="domanda11" value="D"> D) Salsa, bachata e merengue
+        </label>
+        
+        <!-- Dodicesima domanda -->
+        <p>12) Se fossero in un pub, cosa ordinerebbero?</p>
+        <label>
+            <input type="radio" name="domanda12" value="A" required> A) Andrea: un succo di frutta, Roberta: solo acqua
+        </label>
+        <label>
+            <input type="radio" name="domanda12" value="B"> B) Andrea: una birra ambrata, Roberta: una birra weiss
+        </label>
+        <label>
+            <input type="radio" name="domanda12" value="C"> C) Andrea: una birra weiss, Roberta: una birra scura
+        </label>
+        <label>
+            <input type="radio" name="domanda12" value="D"> D) Andrea: uno Spritz, Roberta: un Campari
+        </label>
+        
+        <!-- Tredicesima domanda -->
+        <p>13) A quali tra questi concerti sono andati insieme?</p>
+        <label>
+            <input type="radio" name="domanda13" value="A" required> A) Queen of the Stone Age
+        </label>
+        <label>
+            <input type="radio" name="domanda13" value="B"> B) Kiss
+        </label>
+        <label>
+            <input type="radio" name="domanda13" value="C"> C) Caparezza
+        </label>
+        <label>
+            <input type="radio" name="domanda13" value="D"> D) Guns ‘n Roses
+        </label>
+        
+        <!-- Quattordicesima domanda -->
+        <p>14) Quale abitudine hanno Andrea e Roberta il sabato mattina?</p>
+        <label>
+            <input type="radio" name="domanda14" value="A" required> A) Mangiano un croissant insieme
+        </label>
+        <label>
+            <input type="radio" name="domanda14" value="B"> B) Andrea porta la colazione a letto a Roberta
+        </label>
+        <label>
+            <input type="radio" name="domanda14" value="C"> C) Roberta prepara la colazione mentre Andrea dorme ancora
+        </label>
+        <label>
+            <input type="radio" name="domanda14" value="D"> D) Si svegliano tardi e pranzano direttamente
+        </label>
+        
+        <!-- Quindicesima domanda -->
+        <p>15) Quali squadre tifano Andrea e Roberta?</p>
+        <label>
+            <input type="radio" name="domanda15" value="A" required> A) Andrea: Inter, Roberta: Milan
+        </label>
+        <label>
+            <input type="radio" name="domanda15" value="B"> B) Andrea: Inter, Roberta: Juventus
+        </label>
+        <label>
+            <input type="radio" name="domanda15" value="C"> C) Andrea: Torino, Roberta: Juventus
+        </label>
+        <label>
+            <input type="radio" name="domanda15" value="D"> D) Andrea: Milan, Roberta: non tifa nessuna squadra
+        </label>
+
+
+        <br><br>
+        <button type="submit">Invia</button>
+    </form>
+
+
+	
+<!-- Form del quiz 
+<form name="submit-to-google-sheet">
+   <button type="submit">Invia</button>
+</form>
+-->
+
+<p id="result"></p> <!-- Questo sarà usato per mostrare il punteggio -->
+
+    <script>
+      // Funzione per ottenere i parametri dalla URL
+      function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+      }
+
+      // Ottieni nome e cognome dalla URL
+      const nome = getQueryParam('nome');
+      const cognome = getQueryParam('cognome');
+
+      // Mostra il messaggio di benvenuto
+      const greeting = document.getElementById('greeting');
+      if (nome && cognome) {
+        greeting.textContent = `Ciao ${nome} ${cognome}, sei pronto per il quiz?`;
+      } else {
+        greeting.textContent = "Benvenuto al quiz!";
+      }
+
+
+
+
+
+
+
+
+
+
+ // Aggiungi un listener per il submit del form
+        document.getElementById('quizForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Evita il comportamento di invio predefinito del form
+
+            // Ottieni le risposte selezionate
+            const risposta1 = document.querySelector('input[name="domanda1"]:checked').value;
+            const risposta2 = document.querySelector('input[name="domanda2"]:checked').value;
+            const risposta3 = document.querySelector('input[name="domanda3"]:checked').value;
+            const risposta4 = document.querySelector('input[name="domanda4"]:checked').value;
+            const risposta5 = document.querySelector('input[name="domanda5"]:checked').value;
+            const risposta6 = document.querySelector('input[name="domanda6"]:checked').value;
+            const risposta7 = document.querySelector('input[name="domanda7"]:checked').value;
+            const risposta8 = document.querySelector('input[name="domanda8"]:checked').value;
+            const risposta9 = document.querySelector('input[name="domanda9"]:checked').value;
+            const risposta10 = document.querySelector('input[name="domanda10"]:checked').value;
+            const risposta11 = document.querySelector('input[name="domanda10"]:checked').value;
+            const risposta12 = document.querySelector('input[name="domanda10"]:checked').value;
+            const risposta13 = document.querySelector('input[name="domanda10"]:checked').value;
+            const risposta14 = document.querySelector('input[name="domanda10"]:checked').value;
+            const risposta15 = document.querySelector('input[name="domanda10"]:checked').value;
+
+	    // Risposte corrette
+            const risposteCorrette = {
+                domanda1: 'C',
+                domanda2: 'A',
+                domanda3: 'B',
+                domanda4: 'C',
+                domanda5: 'B',
+                domanda6: 'B',
+                domanda7: 'B',
+                domanda8: 'B',
+                domanda9: 'D',
+                domanda10: 'D',
+                domanda11: 'B',
+                domanda12: 'B',
+                domanda13: 'C',
+                domanda14: 'A',
+                domanda15: 'C'
+            };
+
+            // Calcola il punteggio
+            let punteggio = 0;
+            for (let i = 1; i <= 15; i++) {
+                if (document.querySelector(`input[name="domanda${i}"]:checked`) &&
+                    document.querySelector(`input[name="domanda${i}"]:checked`).value === risposteCorrette[`domanda${i}`]) {
+                    punteggio++;
+                }
+            }            
+
+            // Mostra il punteggio all'utente
+            const result = document.getElementById('result');
+            result.textContent = `Hai ottenuto un punteggio di ${punteggio}/2.`;
+
+            // Se vuoi inviare il punteggio a Google Sheets, puoi aggiungerlo nel formData
+            const formData = new FormData();
+            formData.append('nome', nome); // Aggiunge il nome estratto dalla URL
+            formData.append('cognome', cognome); // Aggiunge il cognome estratto dalla URL
+            formData.append('punteggio', punteggio); // Aggiunge il punteggio
+
+            // Invia i dati al Google Sheet (se necessario)
+	    const scriptURL = 'https://script.google.com/macros/s/AKfycbwyrPmjaj3aWCb5-alM05iZ4v4GwGcUQIAvLxo_UkRgcMaPXXr-e9PF6g7zU_YaRWEa/exec'
+   	
+            fetch(scriptURL, {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                console.log('Success!', response);
+
+                // Reindirizza alla pagina di ringraziamenti (facoltativo)
+                window.location.href = `https://potasovvi.github.io/AR_quiz-V1/ringraziamenti.html`;
+            }).catch(error => console.error('Error!', error.message));
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    
+<!-- 
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyj0qIoPv1cgjS4UIV6r3KVTJoeOvKdbSJJm6abUuG1gRQzNbJkhkJIexZPweJee9Hy9w/exec'
+    const form = document.forms['submit-to-google-sheet']
+	
+   form.addEventListener('submit', e => {
+   e.preventDefault()
+
+   // Crea un nuovo oggetto FormData a partire dal form esistente
+   const formData = new FormData(form);
+
+    // Aggiungi nome e cognome al FormData
+    formData.append('nome', nome); // Aggiunge il nome estratto dalla URL
+    formData.append('cognome', cognome); // Aggiunge il cognome estratto dalla URL
+	  
+    fetch(scriptURL, { method: 'POST', body: formData })
+      .then(response => 
+	      {
+	      console.log('Success!', response);
+		      
+      	        // Ottieni i valori di nome e cognome dal form
+        	const nome = document.getElementById('nome').value;
+        	const cognome = document.getElementById('cognome').value;
+
+        // Reindirizza alla pagina "" per i ringraziamenti
+        window.location.href = `https://potasovvi.github.io/HP_quiz-V4/ringraziamenti.html`;
+        })	 
+	  .catch(error => console.error('Error!', error.message))		
+  })       
+
+-->
+
+
+
+
+	    
+    </script>
+
+</body>
+</html>
