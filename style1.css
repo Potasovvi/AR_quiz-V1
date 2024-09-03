@@ -65,3 +65,14 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.image-below-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-below-button img {
+    max-width: 100%; /* L'immagine si adatta allo schermo */
+    height: auto;
+    border-radius: 10px; /* Aggiungi bordi arrotondati se desideri */
+}
