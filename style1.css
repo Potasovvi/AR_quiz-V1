@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://raw.githubusercontent.com/Potasovvi/AR_quiz-V1/main/Andrea e Roberta Anime.jpg'); /* Percorso corretto dell'immagine */
-    background-size: contain; /* L'immagine si adatta all'altezza e alla larghezza */
-    background-attachment: scroll; /* L'immagine scorre insieme alla pagina */
-    background-position: center top; /* L'immagine parte dall'alto */
-    background-repeat: no-repeat; /* L'immagine non si ripete */
+    //background-image: url('https://raw.githubusercontent.com/Potasovvi/AR_quiz-V1/main/Andrea e Roberta Anime.jpg'); /* Percorso corretto dell'immagine */
+    //background-size: contain; /* L'immagine si adatta all'altezza e alla larghezza */
+    //background-attachment: scroll; /* L'immagine scorre insieme alla pagina */
+    //background-position: center top; /* L'immagine parte dall'alto */
+    //background-repeat: no-repeat; /* L'immagine non si ripete */
     height: 200vh; /* Imposta un'altezza doppia rispetto alla finestra per creare lo scroll */
     color: #000; /* Testo nero */
 }
@@ -64,6 +64,11 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.image-below-button {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .image-below-button img {
