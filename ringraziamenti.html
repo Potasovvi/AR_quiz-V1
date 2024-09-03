@@ -32,10 +32,12 @@
             font-size: 1.2em;
         }
         .button-container {
-            position: absolute;
+            position: fixed; /* Fissa i pulsanti in basso */
             bottom: 20px; /* Distanza dal fondo della pagina */
+            left: 50%; /* Posizionamento centrato orizzontalmente */
+            transform: translateX(-50%); /* Corregge il centramento */
             display: flex;
-            gap: 20px; /* Spaziatura tra i pulsanti */
+            gap: 20px; /* Spaziatura tra i pulsanti */  
         }
         #home-button, #wizarding-world-button {
             border: none;
