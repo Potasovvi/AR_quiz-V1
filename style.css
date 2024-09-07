@@ -34,6 +34,17 @@ h1 {
     width: 80%;
 }
 
+form {
+    text-align: left; /* Allinea il testo a sinistra */
+    width: 100%; /* Imposta la larghezza massima del form */
+    margin: 0 auto; /* Centra il form all'interno della pagina */
+}
+
+label {
+    display: block; /* Fa sì che ogni etichetta occupi un'intera riga */
+    margin-bottom: 10px; /* Aggiungi uno spazio tra le domande */
+}
+
 p {
     font-size: 1.2em;
     color: #000; /* Testo nero */
