@@ -1,0 +1,85 @@
+
+/* Imposta lo stile di base del corpo della pagina */
+body {
+    font-family: 'Arial', sans-serif; /* Usa Arial come font principale */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Sfondo bianco per il resto della pagina */
+    color: #333; /* Colore del testo scuro per una buona leggibilità su sfondo bianco */
+}
+
+/* Stile per il titolo */
+h1 {
+    font-size: 2.5em; /* Dimensione del font del titolo aumentata */
+    margin: 20px 0; /* Margini superiori e inferiori */
+    color: #000; /* Colore del titolo scuro per contrastare con lo sfondo bianco */
+    text-align: center; /* Allinea il testo al centro */
+}
+
+/* Stile per l'immagine */
+.image-container {
+    text-align: center; /* Allinea l'immagine al centro */
+    margin: 20px 0; /* Margini superiori e inferiori */
+}
+
+.image-container img {
+    max-width: 100%; /* Adatta l'immagine alla larghezza del contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+/* Stile per il contenitore del quiz */
+.form-container {
+    background-color: #ffffff; /* Sfondo bianco per il contenitore del quiz */
+    padding: 30px; /* Maggiore padding per un aspetto più spazioso */
+    border-radius: 15px; /* Angoli leggermente più arrotondati */
+    max-width: 600px; /* Larghezza massima aumentata per una migliore leggibilità */
+    margin: 20px auto; /* Centrato orizzontalmente con margini superiori e inferiori */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aggiunge una leggera ombra al contenitore */
+}
+
+/* Stile per i paragrafi delle domande */
+p {
+    font-size: 1.2em; /* Dimensione del font leggermente più grande */
+    margin: 20px 0; /* Margine superiore e inferiore */
+    color: #333; /* Colore del testo scuro per una buona leggibilità */
+}
+
+/* Stile per le etichette delle risposte */
+label {
+    font-size: 1.1em; /* Dimensione del font per le risposte */
+    margin: 10px 0; /* Margine verticale per separare le risposte */
+    color: #333; /* Colore del testo scuro per una buona leggibilità */
+}
+
+/* Stile per gli input radio */
+input[type="radio"] {
+    margin-right: 10px; /* Spazio tra il cerchio e il testo */
+}
+
+/* Stile per i bottoni */
+button {
+    background-color: #4CAF50; /* Colore di sfondo del bottone */
+    color: white;
+    border: none;
+    padding: 15px 25px; /* Padding modificato per un aspetto più equilibrato */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em; /* Dimensione del testo del bottone leggermente ridotta */
+    margin: 20px 0; /* Margine verticale per distanziare dal resto del contenuto */
+    cursor: pointer;
+    border-radius: 8px; /* Angoli del bottone leggermente arrotondati */
+    transition: background-color 0.3s; /* Transizione fluida per il cambio di colore al passaggio del mouse */
+}
+
+/* Stile per il bottone al passaggio del mouse */
+button:hover {
+    background-color: #45a049; /* Colore di sfondo modificato al passaggio del mouse */
+}
+
+/* Stile per il testo del risultato */
+#result {
+    font-size: 1.3em; /* Dimensione del font del risultato */
+    margin-top: 20px; /* Margine superiore per separare dal resto del contenuto */
+    color: #000; /* Colore del testo scuro per una buona leggibilità */
+}
