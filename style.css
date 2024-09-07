@@ -34,6 +34,7 @@ h1 {
     border-radius: 15px; /* Angoli leggermente più arrotondati */
     max-width: 600px; /* Larghezza massima aumentata per una migliore leggibilità */
     margin: 20px auto; /* Centrato orizzontalmente con margini superiori e inferiori */
+    margin-left: 20px; /* Sposta le domande leggermente verso destra */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Aggiunge una leggera ombra al contenitore */
 }
 
@@ -42,6 +43,7 @@ p {
     font-size: 1.2em; /* Dimensione del font leggermente più grande */
     margin: 20px 0; /* Margine superiore e inferiore */
     color: #333; /* Colore del testo scuro per una buona leggibilità */
+    margin-left: 20px; /* Sposta le domande leggermente verso destra */
 }
 
 /* Stile per le etichette delle risposte */
@@ -49,6 +51,7 @@ label {
     font-size: 1.1em; /* Dimensione del font per le risposte */
     margin: 10px 0; /* Margine verticale per separare le risposte */
     color: #333; /* Colore del testo scuro per una buona leggibilità */
+    margin-left: 20px; /* Sposta le domande leggermente verso destra */
 }
 
 /* Stile per gli input radio */
