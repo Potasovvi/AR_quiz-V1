@@ -12,6 +12,18 @@ body {
     text-align: center;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altezza piena della finestra */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     font-size: 2em;
     background-color: rgba(255, 255, 255, 0.7); /* Sfondo bianco semitrasparente */
