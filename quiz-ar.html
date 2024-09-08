@@ -34,15 +34,15 @@
         </label><br>
 
         <!-- Seconda domanda -->
-        <p>2) Quale tra questi episodi su Andrea è vero?</p>
+        <p>2) Quale tra questi episodi su Andrea è vero?</p>        
         <label>
-            <input type="radio" name="domanda2" value="A" required> A) Parla mentre dorme e una notte ha svegliato Roberta urlandole "Pronto?" nell'orecchio
+            <input type="radio" name="domanda2" value="A"> A) Si è iscritto ad un corso di pilates e non è mai andato
         </label><br>
         <label>
-            <input type="radio" name="domanda2" value="B"> B) Si è iscritto ad un corso di pilates e non è mai andato
+            <input type="radio" name="domanda2" value="B"> B) Uno dei suoi negozi preferiti è Ikea
         </label><br>
-        <label>
-            <input type="radio" name="domanda2" value="C"> C) Uno dei suoi negozi preferiti è Ikea
+	<label>
+            <input type="radio" name="domanda2" value="C" required> C) Parla mentre dorme e una notte ha svegliato Roberta urlandole "Pronto?" nell'orecchio
         </label><br>
         <label>
             <input type="radio" name="domanda2" value="D"> D) Ha rotto il soffione mentre era sotto la doccia
@@ -110,12 +110,12 @@
 
         <!-- Settima domanda -->
         <p>7) Qual è il gruppo preferito di Roberta?</p>
-        <label>
-            <input type="radio" name="domanda7" value="A" required> A) Imagine Dragons
+	<label>
+            <input type="radio" name="domanda7" value="A"> A) Muse
         </label><br>
         <label>
-            <input type="radio" name="domanda7" value="B"> B) Muse
-        </label><br>
+            <input type="radio" name="domanda7" value="B" required> B) Imagine Dragons
+        </label><br>        
         <label>
             <input type="radio" name="domanda7" value="C"> C) Coldplay
         </label><br>
@@ -310,12 +310,12 @@
 	    // Risposte corrette
             const risposteCorrette = {
                 domanda1: 'C',
-                domanda2: 'A',
+                domanda2: 'C',
                 domanda3: 'B',
                 domanda4: 'C',
                 domanda5: 'B',
                 domanda6: 'B',
-                domanda7: 'B',
+                domanda7: 'A',
                 domanda8: 'B',
                 domanda9: 'D',
                 domanda10: 'D',
