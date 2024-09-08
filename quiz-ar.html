@@ -353,7 +353,7 @@
                 body: formData
             }).then(response => {
                 console.log('Success!', response);
-		alert('Quiz compilato con successo');
+		alert('Quiz compilato con successo. Hai ottenuto un punteggio di ${punteggio}.');
                 // Reindirizza alla pagina di ringraziamenti (facoltativo)
                 window.location.href = `https://potasovvi.github.io/AR_quiz-V1/ringraziamenti.html`;
             }).catch(error => console.error('Error!', error.message));
